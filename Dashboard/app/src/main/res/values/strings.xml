@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dashboard</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string-array name="date">
+        <item>26 Maret 2021</item>
+        <item>27 Maret 2021</item>
+        <item>28 Maret 2021</item>
+        <item>29 Maret 2021</item>
+        <item>30 Maret 2021</item>
+        <item>31 Maret 2021</item>
+    </string-array>
+    <string-array name="time">
+        <item>8:00am</item>
+        <item>9:00am</item>
+        <item>10:00am</item>
+        <item>11:00am</item>
+        <item>12:00pm</item>
+        <item>1:00pm</item>
+    </string-array>
+</resources>

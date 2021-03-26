@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Dashboard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="60dp"
+        android:text="1"
+        android:id="@+id/linear"
+        />
+    <TextView
+        android:id="@+id/textlinear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Linear Layout"
+        android:layout_below="@+id/linear"
+        android:layout_marginLeft="18dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="2"
+        android:id="@+id/relative"
+        />
+    <TextView
+        android:id="@+id/textrelative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relative Layout"
+        android:layout_below="@id/relative"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/constraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="60dp"
+        android:text="3"
+        />
+    <TextView
+        android:id="@+id/textconstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout"
+        android:layout_below="@id/constraint"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textlinear"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:text="4"
+        android:id="@+id/frame"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frame Layout"
+        android:layout_below="@+id/frame"
+        android:layout_marginLeft="18dp"
+        android:id="@+id/textframe"
+        />
+
+    <Button
+        android:id="@+id/tabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textrelative"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="5"
+        />
+
+    <TextView
+        android:id="@+id/texttabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tabel Layout"
+        android:layout_below="@id/tabel"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textconstraint"
+        android:text="6"
+        android:id="@+id/material"
+        />
+    <TextView
+        android:id="@+id/textmaterial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Material Design"
+        android:layout_below="@id/material"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textframe"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:text="7"
+        android:id="@+id/scroll1"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll1"
+        android:text="Scroll View Vertical"
+        android:textSize="12sp"
+        android:layout_marginLeft="28dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textmaterial"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="8"
+        android:id="@+id/scroll2"
+        />
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll2"
+        android:text="Scroll View Horizontal"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
