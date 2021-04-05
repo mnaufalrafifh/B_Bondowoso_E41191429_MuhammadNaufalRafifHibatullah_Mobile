@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">List View</string>
+    <string-array name="nama">
+        <item>Muhammad</item>
+        <item>Naufal</item>
+        <item>Rafif</item>
+        <item>Hibatullah</item>
+    </string-array>
+</resources>
